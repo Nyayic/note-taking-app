@@ -21,8 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   exit();
 }
 ?>
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">

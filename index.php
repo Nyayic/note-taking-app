@@ -10,8 +10,6 @@ $conn = mysqli_connect($host, $user, $password, $dbname);
 $sql = "SELECT * FROM notes";
 $result = mysqli_query($conn, $sql);
 ?>
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">

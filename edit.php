@@ -28,8 +28,6 @@ $sql = "SELECT * FROM notes WHERE id=$id";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 ?>
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
